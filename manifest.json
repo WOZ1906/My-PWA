@@ -1,0 +1,23 @@
+{
+    "name": "Atcha PWA",
+    "short_name": "PWA",
+    "start_url": ".",
+    "background_color": "#A480D9",
+    "theme_color": "#5A0FC8",
+    "display": "standalone",
+    "description": "Basic PWA App",
+    "icons": [
+        {
+            "src": "imgaes/Logo192.png",
+            "type": "image/png",
+            "sizes": "192x192",
+            "puepose": "any maskable"
+        },
+        {
+            "src":"imgaes/Logo512.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "any maskable"
+        }
+    ]
+}
