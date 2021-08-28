@@ -11,7 +11,7 @@
             "src": "imgaes/Logo192.png",
             "type": "image/png",
             "sizes": "192x192",
-            "puepose": "any maskable"
+            "purpose": "any maskable"
         },
         {
             "src":"imgaes/Logo512.png",
