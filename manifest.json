@@ -8,13 +8,13 @@
     "description": "Basic PWA App",
     "icons": [
         {
-            "src": "imgaes/Logo192.png",
+            "src": "images/Logo192.png",
             "type": "image/png",
             "sizes": "192x192",
             "purpose": "any maskable"
         },
         {
-            "src":"imgaes/Logo512.png",
+            "src":"images/Logo512.png",
             "type": "image/png",
             "sizes": "512x512",
             "purpose": "any maskable"
