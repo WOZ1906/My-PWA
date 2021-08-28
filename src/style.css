@@ -1,3 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Roboto:wght@400;500;700;900&display=swap");
+
 body {
-    background: #A480D9;
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
+    url(./city.jpg) no-repeat center center / cover;
+  color: white;
+  overflow: hidden;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  padding: 0 3rem;
+}
+
+h1,
+h2 {
+  font-weight: normal;
+  margin: 0.4rem;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #fff6ec;
+}
+
+h2 {
+  font-size: 2rem;
+  color: whitesmoke;
+}
+
+/* the type writer section  */
+.txt-type {
+  margin-left: 10px;
+  font-weight: normal;
+  color: #570FC2;
+}
+
+.txt-type::after {
+  content: "";
+  margin-left: 4px;
+  width: 1px;
+  height: 5%;
+  border-right: 4px solid #3B3B3B;
+  animation: blink 0.5s infinite ease;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
+
+
+
+/* body {
+    background: #A480D9;
+} */
