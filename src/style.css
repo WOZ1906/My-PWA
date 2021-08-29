@@ -11,27 +11,29 @@ body {
 
 .container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   height: 100%;
-  padding: 0 3rem;
+  padding: 3rem 0 3rem;
 }
 
 h1,
 h2 {
   font-weight: normal;
   margin: 0.4rem;
+  text-align: center;
 }
 
 h1 {
-  font-size: 3rem;
-  color: #fff6ec;
-}
-
-h2 {
   font-size: 2rem;
   color: whitesmoke;
 }
+
+h2 {
+   
+    font-size: 3rem;
+    color: #fff6ec;
+  }
 
 /* the type writer section  */
 .txt-type {
@@ -49,6 +51,36 @@ h2 {
   animation: blink 0.5s infinite ease;
 }
 
+.below-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+.image-align {
+    display: flex;
+    align-self: center;
+}
+
+.below-container img{
+    width: 150px;
+        border: 2px solid #570FC2;
+        border-radius: 4px;
+        padding: 5px;
+        width: 150px;
+      
+}
+
+.below-container img:hover {
+    box-shadow: 0 0 2px 1px rgba(87, 15, 194, 0.5);
+  }
+
+.below-container h3{
+    text-align: center;
+    color: whitesmoke;
+}
+
 @keyframes blink {
   0% {
     opacity: 0;
@@ -58,11 +90,3 @@ h2 {
   }
 }
 
-
-
-
-
-
-/* body {
-    background: #A480D9;
-} */
