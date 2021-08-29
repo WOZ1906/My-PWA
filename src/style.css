@@ -56,8 +56,12 @@ h2 {
     display: flex;
     justify-content: center;
     flex-direction: column;
+<<<<<<< HEAD
     justify-self: flex-end;
     margin-top: 3rem;
+=======
+    margin-top: 2rem;
+>>>>>>> ea75ca6ed959042cfb63aa93f12441eb67b9ea9f
 }
 
 .image-align {
